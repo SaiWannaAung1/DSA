@@ -15,7 +15,7 @@ public class SelectionSort {
         JOptionPane.showMessageDialog(null, sortedList);
     }
     ArrayList<Integer>  impl(ArrayList<Integer> numList) {
-        int n = numList.size();//
+        int n = numList.size();//s
         for(int i = 0; i < n-1; i++) {
             int minIndex = i;
             for(int j = i+1; j < n; j++) {
