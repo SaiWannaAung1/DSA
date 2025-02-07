@@ -1,10 +1,9 @@
-package searching;
+package algorithm.searching;
 
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 
 public class BinarySearch {
     public static void main(String[] args) {

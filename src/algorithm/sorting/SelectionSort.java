@@ -1,6 +1,4 @@
-package sorting;
-
-import searching.BinarySearch;
+package algorithm.sorting;
 
 import javax.swing.*;
 import java.util.ArrayList;

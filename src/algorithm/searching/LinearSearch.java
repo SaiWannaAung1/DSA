@@ -1,4 +1,4 @@
-package searching;
+package algorithm.searching;
 
 import javax.swing.*;
 import java.util.ArrayList;

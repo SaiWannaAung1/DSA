@@ -1,4 +1,4 @@
-package sorting;
+package algorithm.sorting;
 
 public class InsertionSort {
     /* Function to sort array using insertion sort */

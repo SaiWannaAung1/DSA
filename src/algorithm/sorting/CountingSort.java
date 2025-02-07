@@ -1,4 +1,4 @@
-package sorting;
+package algorithm.sorting;
 
 public class CountingSort {
     public static void countingSort(int[] arr) {
