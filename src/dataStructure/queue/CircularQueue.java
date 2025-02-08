@@ -77,7 +77,6 @@ public class CircularQueue {
     }
 
     public static void main(String[] args) {
-
         CircularQueue q = new CircularQueue();
 
         // Fails because front = -1
