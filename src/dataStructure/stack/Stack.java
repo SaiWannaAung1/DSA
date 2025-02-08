@@ -1,4 +1,4 @@
-package dataStructure.collection;
+package dataStructure.stack;
 
 public class Stack {
     private int arr[];
