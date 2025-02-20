@@ -1,7 +1,7 @@
 package algorithm.sorting;
 
 public class CountingSort {
-    public static void countingSort(int[] arr) {
+    public static void impl(int[] arr) {
         int max_val = arr[0];
         for(int num : arr) {
             if(num > max_val) {
@@ -26,7 +26,7 @@ public class CountingSort {
 
     public static void main(String[] args) {
         int[] arr = {4, 2, 2, 6, 3, 3, 1, 6, 5, 2, 3};
-        countingSort(arr);
+        impl(arr);
 
         System.out.print("Sorted array: ");
         for(int num : arr) {
