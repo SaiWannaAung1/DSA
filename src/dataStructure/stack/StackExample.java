@@ -12,5 +12,7 @@ public class StackExample {
         System.out.println("Get all value "+ stack);
         System.out.println("Peek "+ stack.peek());
         System.out.println("Get all value "+ stack);
+        System.out.println("Remove Last Item "+ stack.pop());
+        System.out.println("Get all value "+ stack);
     }
 }
