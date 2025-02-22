@@ -1,6 +1,6 @@
 package dataStructure.collection;
 
-public class Array {
+public class ArrayExample {
     public static void main(String[] args) {
 
     }
