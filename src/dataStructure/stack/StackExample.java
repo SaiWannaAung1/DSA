@@ -6,26 +6,26 @@ public class StackExample{
     Stack<Stack<Integer>> history = new Stack<>();
 
     public void push(int item) {
-        saveState();  // Save the current state before pushing
-        stack.push(item);  // Push the item onto the stack
+        saveState();
+        stack.push(item);
     }
 
     public Object pop() {
-        saveState();  // Save the current state before popping
+        saveState();
         if (!stack.isEmpty()) {
-            return stack.pop();  // Pop the item from the stack
+            return stack.pop();
         }
         return null;
     }
     private void saveState() {
-        history.push((Stack<Integer>) stack.clone());  // Save a clone of the current stack
+        history.push((Stack<Integer>) stack.clone());
     }
     public void undo() {
         if (!history.isEmpty()) {
             stack.clear();
-            stack.addAll(history.pop());// Restore the previous state from the history stack
+            stack.addAll(history.pop());
         } else {
-            System.out.println("No actions to undo!");  // Handle case when there's no history
+            System.out.println("No actions to undo!");
         }
     }
     public static void main(String[] args) {
@@ -43,9 +43,7 @@ public class StackExample{
         System.out.println("Get all value "+ stackExample);
     }
 
-    private static void undo(Stack<Integer> actionStack){
 
-    }
 
     @Override
     public String toString() {
