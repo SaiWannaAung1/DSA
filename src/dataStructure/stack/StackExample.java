@@ -7,8 +7,10 @@ public class StackExample {
     public static void main(String[] args) {
         stack.push(1);
         stack.push(2);
-        stack.push(1);
-        stack.push(1);
-        System.out.println("Get all value"+ stack);
+        stack.push(3);
+        stack.push(4);
+        System.out.println("Get all value "+ stack);
+        System.out.println("Peek "+ stack.peek());
+        System.out.println("Get all value "+ stack);
     }
 }
