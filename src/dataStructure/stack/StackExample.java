@@ -17,9 +17,11 @@ public class StackExample{
         }
         return null;
     }
+
     private void saveState() {
         history.push((Stack<Integer>) stack.clone());
     }
+
     public void undo() {
         if (!history.isEmpty()) {
             stack.clear();
@@ -28,6 +30,7 @@ public class StackExample{
             System.out.println("No actions to undo!");
         }
     }
+
     public static void main(String[] args) {
         StackExample stackExample = new StackExample();
         stackExample.push(1);
