@@ -13,6 +13,9 @@ public class HashMapExample {
         hm.put("e", 5);
         hm.put("f", 6);
 
+        int ans = hm.get("a");
+        System.out.println(ans);
+
 
     }
 }
