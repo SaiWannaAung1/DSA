@@ -20,6 +20,9 @@ public class TreeMapExample {
         for (Map.Entry<String, Integer> entry : tm.entrySet()) {
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
-
+        tm.clear();
+        for (Map.Entry<String, Integer> entry : tm.entrySet()) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
     }
 }

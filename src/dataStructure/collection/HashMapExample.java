@@ -19,7 +19,9 @@ public class HashMapExample {
         hm.remove("d");
         hm.put("c", 61);
 
-
+        for (Map.Entry<String, Integer> entry : hm.entrySet()) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
 
     }
 }
