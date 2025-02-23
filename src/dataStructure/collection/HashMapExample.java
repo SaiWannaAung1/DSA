@@ -22,6 +22,9 @@ public class HashMapExample {
         for (Map.Entry<String, Integer> entry : hm.entrySet()) {
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
-
+        hm.clear();
+        for (Map.Entry<String, Integer> entry : hm.entrySet()) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
     }
 }
