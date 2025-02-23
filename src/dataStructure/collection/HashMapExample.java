@@ -15,6 +15,10 @@ public class HashMapExample {
 
         int ans = hm.get("a");
         System.out.println(ans);
+        hm.remove("c");
+        hm.remove("d");
+        hm.put("c", 61);
+
 
 
     }
