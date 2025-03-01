@@ -11,7 +11,7 @@ public class HashMapExample {
         hm.put("c", 3);
         hm.put("d", 4);
         hm.put("e", 5);
-        hm.put("f", 6);
+     
 
         int ans = hm.get("a");
         System.out.println(ans);
