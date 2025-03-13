@@ -28,7 +28,7 @@ public class Deque {
             return;
         }
 
-        if (front == -1) {
+        if (front == -1) { 
             front = 0;
             rear = 0;
         }
