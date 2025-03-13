@@ -4,7 +4,7 @@ public class Deque {
     static final int MAX = 100;
     int arr[];
     int front;
-    int rear;
+    int rear; 
     int size;
 
     public Deque(int size) {
